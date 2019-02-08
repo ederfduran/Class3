@@ -1,6 +1,6 @@
 #ifndef TESTUTILS_H
 #define TESTUTILS_H
-
+#include "Utils.h"
 namespace cpp_class3_test {
 	void testToggleCharCase(char *, int);
 	void testParitySort(int *, int, int*, int*);
