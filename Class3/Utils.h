@@ -8,16 +8,18 @@ namespace cpp_class3 {
 		INT = 1
 	};
 
-	void fillArray(void * ,int ,Type);
-	void printCharArray(const char * ,int ,bool);
-	void printIntArray(const int *, int);
+	void fillArray(void * ,unsigned int ,Type);
+	void printCharArray(const char * ,unsigned int ,bool);
+	void printIntArray(const int *, unsigned int);
 	bool isLetter(char);
 	bool isCapital(char);
-	void toggleCharCase(char *, int);
-	void paritySort(int *,int,int*,int*);
-	bool isArrayConsecutive(int*,int);
-	bool areConsecutives(int* , int , int*,int);
-	bool isReverseOf(short*,int,short*,int);
+	void toggleCharCase(char *, unsigned int);
+	void paritySort(int *,unsigned int,int*,int*);
+	void swap(int*,int*);
+	void sortHightToLow(int*,unsigned int length);
+	bool isArrayConsecutive(int*,unsigned int);
+	bool areConsecutives(int* ,unsigned int , int*,unsigned int);
+	bool isReverseOf(short*,unsigned int,short*,unsigned int);
 	bool areThereDuplicates(int*,unsigned int);
 }
 
